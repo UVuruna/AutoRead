@@ -69,7 +69,7 @@ def Start(e):
         text += f"y1 (bottom-left): {y1}  -- button: {XY_LeftTime}\n" if y1==0 else ''
         text += f"x2 (bottom-right): {x2}  -- button: {XY_RightTime}\n" if x2==0 else ''
         text += f"y2 (bottom-right): {y2}  -- button: {XY_RightTime}\n" if y2==0 else ''
-        text += f"Y bottom: {Y_bottom}  -- button: {Y_bottom}\n" if Y_bottom==0 else ''
+        text += f"Y bottom: {Y_end}  -- button: {Y_bottom}\n" if Y_end==0 else ''
         print("\n\tNiste uneli sve koordinate\n"+text)
 keyboard.on_press_key('s', Start)
 
